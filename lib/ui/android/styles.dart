@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-const brightness = Brightness.light;
+const brightness = Brightness.dark;
 const primaryColor = const Color(0xFF2AACFF);
 const accentColor = const Color(0xFFFFFFFF);
 
@@ -23,5 +23,7 @@ ThemeData androidTheme() {
       subtitle: new TextStyle(fontFamily: "Poppins"),
       title: new TextStyle(fontFamily: "Poppins"),
     ),
+    primaryColor: primaryColor,
+    accentColor: accentColor,
   );
 }
