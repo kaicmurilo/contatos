@@ -21,6 +21,22 @@ class HomeView extends StatelessWidget {
         //   Text('2'),
         // ],
       ),
+      body: ListView(
+        children: <Widget>[
+          ListTile(
+            //itens a esquerda
+            // leading: Image.network(
+            //     "https://pbs.twimg.com/profile_images/1258516553219399681/6XkVhhsB_400x400.jpg"),
+            // leading: Image.network("https://balta.io/imgs/andrebaltieri.jpg"),
+            title: Text("Kaic Murilo Nunes"),
+            subtitle: Text("67 99350-9090"),
+            trailing: FlatButton(
+              onPressed: () {},
+              child: Icon(Icons.chat, color: Theme.of(context).primaryColor),
+            ),
+          ),
+        ],
+      ),
     );
   }
 }
